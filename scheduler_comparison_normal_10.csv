@@ -1,0 +1,7 @@
+Scheduler,Tasks,Avg Response Time,Avg Waiting Time,Deadline Misses,Deadline Miss Rate (%),CPU Utilization (%),Context Switches,Response-Time Jitter (SD)
+FCFS,50,41.86,41.86,46,92.0,97.35,49,25.541
+Round Robin,50,30.88,46.64,46,92.0,97.35,69,18.67
+Priority,50,29.18,30.9,34,68.0,97.35,55,30.59
+Rate Monotonic,50,26,26.82,29,58.0,97.35,51,29.378
+EDF,50,39.72,39.76,45,90.0,97.35,50,25.391
+Market-Aware,50,32.24,34.58,45,90.0,97.35,55,32.008

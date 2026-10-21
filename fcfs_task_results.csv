@@ -1,0 +1,101 @@
+task_id,task_type,arrival_time,burst_time,deadline,first_start,completion,response_time,waiting_time,turnaround_time,deadline_missed
+E001-T1,Market Data Ingestion,3,1,10,3,4,0,0,1,False
+E001-T2,Preprocessing,4,3,13,4,7,0,0,3,False
+E001-T3,Signal Generation,5,4,13,7,11,2,2,6,False
+E002-T1,Market Data Ingestion,5,1,12,11,12,6,6,7,False
+E001-T4,Risk Calculation,6,1,11,12,13,6,6,7,True
+E002-T2,Preprocessing,6,3,15,13,16,7,7,10,True
+E001-T5,Order Generation,7,2,13,16,18,9,9,11,True
+E002-T3,Signal Generation,7,4,15,18,22,11,11,15,True
+E002-T4,Risk Calculation,8,1,13,22,23,14,14,15,True
+E003-T1,Market Data Ingestion,8,1,15,23,24,15,15,16,True
+E002-T5,Order Generation,9,2,15,24,26,15,15,17,True
+E003-T2,Preprocessing,9,3,18,26,29,17,17,20,True
+E003-T3,Signal Generation,10,4,18,29,33,19,19,23,True
+E003-T4,Risk Calculation,11,1,16,33,34,22,22,23,True
+E004-T1,Market Data Ingestion,11,1,18,34,35,23,23,24,True
+E003-T5,Order Generation,12,2,18,35,37,23,23,25,True
+E004-T2,Preprocessing,12,3,21,37,40,25,25,28,True
+E005-T1,Market Data Ingestion,12,1,19,40,41,28,28,29,True
+E004-T3,Signal Generation,13,4,21,41,45,28,28,32,True
+E005-T2,Preprocessing,13,3,22,45,48,32,32,35,True
+E006-T1,Market Data Ingestion,13,1,20,48,49,35,35,36,True
+E004-T4,Risk Calculation,14,1,19,49,50,35,35,36,True
+E005-T3,Signal Generation,14,4,22,50,54,36,36,40,True
+E006-T2,Preprocessing,14,3,23,54,57,40,40,43,True
+E007-T1,Market Data Ingestion,14,1,21,57,58,43,43,44,True
+E004-T5,Order Generation,15,2,21,58,60,43,43,45,True
+E005-T4,Risk Calculation,15,1,20,60,61,45,45,46,True
+E006-T3,Signal Generation,15,4,23,61,65,46,46,50,True
+E007-T2,Preprocessing,15,3,24,65,68,50,50,53,True
+E008-T1,Market Data Ingestion,15,1,22,68,69,53,53,54,True
+E009-T1,Market Data Ingestion,15,1,22,69,70,54,54,55,True
+E010-T1,Market Data Ingestion,15,1,22,70,71,55,55,56,True
+E011-T1,Market Data Ingestion,15,1,22,71,72,56,56,57,True
+E012-T1,Market Data Ingestion,15,1,22,72,73,57,57,58,True
+E013-T1,Market Data Ingestion,15,1,22,73,74,58,58,59,True
+E005-T5,Order Generation,16,2,22,74,76,58,58,60,True
+E006-T4,Risk Calculation,16,1,21,76,77,60,60,61,True
+E007-T3,Signal Generation,16,4,24,77,81,61,61,65,True
+E008-T2,Preprocessing,16,3,25,81,84,65,65,68,True
+E009-T2,Preprocessing,16,3,25,84,87,68,68,71,True
+E010-T2,Preprocessing,16,3,25,87,90,71,71,74,True
+E011-T2,Preprocessing,16,3,25,90,93,74,74,77,True
+E012-T2,Preprocessing,16,3,25,93,96,77,77,80,True
+E013-T2,Preprocessing,16,3,25,96,99,80,80,83,True
+E006-T5,Order Generation,17,2,23,99,101,82,82,84,True
+E007-T4,Risk Calculation,17,1,22,101,102,84,84,85,True
+E008-T3,Signal Generation,17,4,25,102,106,85,85,89,True
+E009-T3,Signal Generation,17,4,25,106,110,89,89,93,True
+E010-T3,Signal Generation,17,4,25,110,114,93,93,97,True
+E011-T3,Signal Generation,17,4,25,114,118,97,97,101,True
+E012-T3,Signal Generation,17,4,25,118,122,101,101,105,True
+E013-T3,Signal Generation,17,4,25,122,126,105,105,109,True
+E014-T1,Market Data Ingestion,17,1,24,126,127,109,109,110,True
+E007-T5,Order Generation,18,2,24,127,129,109,109,111,True
+E008-T4,Risk Calculation,18,1,23,129,130,111,111,112,True
+E009-T4,Risk Calculation,18,1,23,130,131,112,112,113,True
+E010-T4,Risk Calculation,18,1,23,131,132,113,113,114,True
+E011-T4,Risk Calculation,18,1,23,132,133,114,114,115,True
+E012-T4,Risk Calculation,18,1,23,133,134,115,115,116,True
+E013-T4,Risk Calculation,18,1,23,134,135,116,116,117,True
+E014-T2,Preprocessing,18,3,27,135,138,117,117,120,True
+E008-T5,Order Generation,19,2,25,138,140,119,119,121,True
+E009-T5,Order Generation,19,2,25,140,142,121,121,123,True
+E010-T5,Order Generation,19,2,25,142,144,123,123,125,True
+E011-T5,Order Generation,19,2,25,144,146,125,125,127,True
+E012-T5,Order Generation,19,2,25,146,148,127,127,129,True
+E013-T5,Order Generation,19,2,25,148,150,129,129,131,True
+E014-T3,Signal Generation,19,4,27,150,154,131,131,135,True
+E015-T1,Market Data Ingestion,19,1,26,154,155,135,135,136,True
+E014-T4,Risk Calculation,20,1,25,155,156,135,135,136,True
+E015-T2,Preprocessing,20,3,29,156,159,136,136,139,True
+E016-T1,Market Data Ingestion,20,1,27,159,160,139,139,140,True
+E014-T5,Order Generation,21,2,27,160,162,139,139,141,True
+E015-T3,Signal Generation,21,4,29,162,166,141,141,145,True
+E016-T2,Preprocessing,21,3,30,166,169,145,145,148,True
+E015-T4,Risk Calculation,22,1,27,169,170,147,147,148,True
+E016-T3,Signal Generation,22,4,30,170,174,148,148,152,True
+E015-T5,Order Generation,23,2,29,174,176,151,151,153,True
+E016-T4,Risk Calculation,23,1,28,176,177,153,153,154,True
+E017-T1,Market Data Ingestion,23,1,30,177,178,154,154,155,True
+E016-T5,Order Generation,24,2,30,178,180,154,154,156,True
+E017-T2,Preprocessing,24,3,33,180,183,156,156,159,True
+E017-T3,Signal Generation,25,4,33,183,187,158,158,162,True
+E017-T4,Risk Calculation,26,1,31,187,188,161,161,162,True
+E018-T1,Market Data Ingestion,26,1,33,188,189,162,162,163,True
+E017-T5,Order Generation,27,2,33,189,191,162,162,164,True
+E018-T2,Preprocessing,27,3,36,191,194,164,164,167,True
+E019-T1,Market Data Ingestion,27,1,34,194,195,167,167,168,True
+E018-T3,Signal Generation,28,4,36,195,199,167,167,171,True
+E019-T2,Preprocessing,28,3,37,199,202,171,171,174,True
+E020-T1,Market Data Ingestion,28,1,35,202,203,174,174,175,True
+E018-T4,Risk Calculation,29,1,34,203,204,174,174,175,True
+E019-T3,Signal Generation,29,4,37,204,208,175,175,179,True
+E020-T2,Preprocessing,29,3,38,208,211,179,179,182,True
+E018-T5,Order Generation,30,2,36,211,213,181,181,183,True
+E019-T4,Risk Calculation,30,1,35,213,214,183,183,184,True
+E020-T3,Signal Generation,30,4,38,214,218,184,184,188,True
+E019-T5,Order Generation,31,2,37,218,220,187,187,189,True
+E020-T4,Risk Calculation,31,1,36,220,221,189,189,190,True
+E020-T5,Order Generation,32,2,38,221,223,189,189,191,True

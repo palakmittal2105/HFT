@@ -1,0 +1,19 @@
+Scenario,Scheduler,Tasks,Avg Response Time,Avg Waiting Time,Deadline Misses,Deadline Miss Rate (%),CPU Utilization (%),Context Switches,Response-Time Jitter (SD)
+Normal 10,FCFS,50,41.86,41.86,46,92.0,97.35,49,25.541
+Normal 10,Round Robin,50,30.88,46.64,46,92.0,97.35,69,18.67
+Normal 10,Priority,50,29.18,30.9,34,68.0,97.35,55,30.59
+Normal 10,Rate Monotonic,50,26.0,26.82,29,58.0,97.35,51,29.378
+Normal 10,EDF,50,39.72,39.76,45,90.0,97.35,50,25.391
+Normal 10,Market-Aware,50,32.24,34.58,45,90.0,97.35,55,32.008
+Bursty 10,FCFS,50,44.36,44.36,46,92.0,97.35,49,27.173
+Bursty 10,Round Robin,50,32.7,49.54,46,92.0,97.35,69,19.964
+Bursty 10,Priority,50,31.46,33.18,37,74.0,97.35,53,31.189
+Bursty 10,Rate Monotonic,50,28.2,29.32,34,68.0,97.35,51,29.882
+Bursty 10,EDF,50,41.48,41.52,45,90.0,97.35,50,27.421
+Bursty 10,Market-Aware,50,36.76,38.54,42,84.0,97.35,52,29.879
+Bursty 20,FCFS,100,94.09,94.09,96,96.0,98.65,99,57.543
+Bursty 20,Round Robin,100,68.7,105.77,96,96.0,98.65,139,41.997
+Bursty 20,Priority,100,69.28,71.03,77,77.0,98.65,103,63.427
+Bursty 20,Rate Monotonic,100,62.25,63.06,77,77.0,98.65,101,60.667
+Bursty 20,EDF,100,89.01,89.03,95,95.0,98.65,100,57.897
+Bursty 20,Market-Aware,100,80.95,84.3,93,93.0,98.65,104,62.381
