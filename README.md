@@ -221,17 +221,8 @@ A successful test run indicates that the included tests passed for that run. It 
 - The adaptive selector's behaviour depends on its implemented selection rules.
 - Results from simulation should not be interpreted as proof that a scheduling policy will outperform others in a live trading environment.
 
-## Future Improvements
-
-- Add more realistic workload distributions and configurable task parameters.
-- Expand deadline and overload analysis.
-- Improve adaptive policy selection using clearly defined performance objectives.
-- Evaluate the effect of different priority weights.
-- Add more extensive repeated experiments and statistical comparisons.
-- Explore hardware-aware and multicore scheduling models.
 
 
 
-## License
 
-No license has been specified yet. Add an appropriate open-source license if you want others to reuse, modify, and distribute this project.
+
